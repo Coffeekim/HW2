@@ -1,0 +1,157 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+nav {
+    background: #007765;
+    margin: 0 auto;
+    position: fixed;
+    width: 100%;
+}
+.cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1219px;
+    padding: 0px 55px 0px 55px;
+    height: 100%;
+}
+
+.wrapNav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 184px;
+    height: 45px;
+    margin: 20px;
+}
+
+.menu {
+    margin: 25px;
+}
+
+.menu td a{
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+.menu td {
+    border-right: 1px solid white;
+}
+.menu td:last-child {
+    border-right: none;
+}
+
+h2 {
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    color: #007765;
+}
+
+header {
+    height: 487px;
+    background: url(./img/imageTop.png);
+    color: white;
+    background-size: contain;
+    
+}
+header h2 {
+    color: white;
+}
+
+#problem {
+    background: #EEEEEE;
+}
+p {
+    font-size: 32px;
+    line-height: 37px;
+}
+
+.wrapProblem > h2 {
+    margin-bottom: 16px;
+}
+
+.wrapProblem:last-child {
+    margin-bottom: 90px;
+}
+
+.insert {
+    background: url(./img/Hero.png);
+    height: 483px;
+    background-size: cover;
+    background-repeat: no-repeat;
+} 
+.insert p {
+    font-size: 48px;
+    line-height: 56px;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 60px;
+}
+#piedPiperCoin {
+    padding-bottom: 50px;
+}
+
+.PPCLogo {
+    float: left;
+    margin-right: 48px;
+    margin-bottom: 35px;
+    width: 115px;
+    height: 115px;
+}
+
+#team {
+    background: #EEEEEE;
+}
+
+.wrapCard {
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    flex-wrap: wrap;
+    padding-bottom: 95px;
+}
+
+.card {
+    display: inline-block;
+    text-align: center;
+    min-width: 23%;
+    margin: 30px;
+    padding: 30px;
+}
+
+.card img {
+    width: 168px;
+    height: 168px;
+}
+
+.card .name {
+    font-size: 24px;
+    line-height: 28px;
+    color: #007765;
+}
+
+.card .position {
+    font-size: 18px;
+    line-height: 21px;
+    font-style: italic;
+}
+
+footer {
+    height: 176px;
+    background: #333333;
+}
+
+footer p {
+    max-width: 540px;
+    color: white;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+}
